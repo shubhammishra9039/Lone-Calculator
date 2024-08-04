@@ -39,7 +39,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 35px;
+  gap: 15px;
 }
 
 .conatiner form fieldset {
@@ -57,19 +57,7 @@ body {
   border: none;
   outline: none;
 }
-.conatiner form button {
-  width: 100%;
-  height: 35px;
-  border-radius: 5px;
-  border: 2px solid #1a3636;
-}
-.conatiner form button:hover {
-  border: 3px solid white;
-  background-color: #1a3636;
-  border-radius: 5px;
-  color: white;
 
-  transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+#resultBox {
+  margin-top: 15px;
 }
