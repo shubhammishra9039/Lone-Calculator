@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lone Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="calculator-line.png">
+  </head>
+  <body>
+    <div class="claculator">
+      <div class="conatiner">
+        <form action="">
+            <fieldset> Lone Calculator</fieldset>
+            
+            <input onchange="payment()" type="number" id="Amount" name="Amount" value="1000">
+            <input onchange="payment()" type="number" id="Rate" name="Rate" value="2">
+            <input onchange="payment()" type="number" id="Time" name="Time" value="2">
+            
+            <div id="resultBox">
+                <span>Monthly Payment Is :</span>
+                <span id="result"></span>
+
+            </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
