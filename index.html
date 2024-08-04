@@ -6,25 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lone Calculator</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="calculator-line.png">
+    <link rel="icon" href="calculator-line.png" />
   </head>
   <body>
     <div class="claculator">
       <div class="conatiner">
         <form action="">
-            <fieldset> Lone Calculator</fieldset>
-            <label for="Amount">Amount</label>
-            <input onchange="payment()" type="number" id="Amount" name="Amount" value="1000">
-            <label for="Rate"> Rate %</label>
-            <input onchange="payment()" type="number" id="Rate" name="Rate" value="2">
-            <label for="Time"> Time</label>
-            <input onchange="payment()" type="number" id="Time" name="Time" value="2">
-            
-            <div id="resultBox">
-                <span>Monthly Payment Is :</span>
-                <span id="result"></span>
+          <fieldset>Lone Calculator</fieldset>
+          <label for="Amount">Amount</label>
+          <input
+            onchange="payment()"
+            type="number"
+            id="Amount"
+            name="Amount"
+            value="1000"
+          />
+          <label for="Rate"> Rate %</label>
+          <input
+            onchange="payment()"
+            type="number"
+            id="Rate"
+            name="Rate"
+            value="2"
+          />
+          <label for="Time"> Time</label>
+          <input
+            onchange="payment()"
+            type="number"
+            id="Time"
+            name="Time"
+            value="2"
+          />
 
-            </div>
+          <div id="resultBox">
+            <span>Monthly Payment Is :</span>
+            <span id="result"></span>
+          </div>
         </form>
       </div>
     </div>

@@ -7,9 +7,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 .claculator {
   width: 100%;
@@ -30,7 +28,7 @@ body {
   align-items: start;
   justify-content: center;
   padding: 25px;
-  position: relative;
+  
 }
 
 .conatiner form {
@@ -39,7 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 5px;
+  gap: 11px;
 }
 
 .conatiner form fieldset {
